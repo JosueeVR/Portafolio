@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+
+  #header-contacto {
+    background-color: blue;
+    padding: 15px 0px;
+    
+}
+
+#header-contacto a {
+    text-decoration: none;
+    color: white;
+
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.nav-link {
+    font-weight: 700;
+
+
+}
+#correo {
+    padding-left: 30px;
+}
+
+.enlaces {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.enlaces:hover {
+    color: #407c04;
+    transition: 200ms ease-in-out;
+}
+
+.boton-header {
+    padding: 10px 27px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #407c04;
+}
+
+  .fomrmulario  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/portada-1.jpg')no-repeat center top;
+    background-size:cover;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #2e8b57;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #238c55;
+  }
+  
+  .side-text {
+    margin-left: 30px;
+  }
+  
+  .side-text p {
+    margin: 10px 0;
+    color: #555;
+  }
+
+
+.section-contacto h2 {
+    color: white;
+}
+
+strong {
+    color: blue;
+}
+
+.section-card {
+    padding-top: 100px;
+}
+
+.section-contacto {
+    margin-top: 50px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+    background-color: royalblue;
+}
+
+.articulo h2 {
+    padding-bottom: 50px;
+    color: forestgreen;
+}
+
+.articulo h3 {
+    color: blue;
+}
+
+.p-arcticulo {
+    color: black;
+}
+
+.p-proyectos {
+  color: blue;
+  padding-bottom: 30px;
+}
+
+.articulo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo {
+  width: 200px;
+}
